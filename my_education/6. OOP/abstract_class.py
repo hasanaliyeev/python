@@ -21,6 +21,7 @@ class Shape(ABC):
 
 class Rectangle(Shape):
     def __init__(self, width, height):
+        super().__init__()
         self.width = width
         self.height = height
         print('Rectangle created')
@@ -39,3 +40,5 @@ rectangle = Rectangle(4, 5)
 rectangle.draw()
 print(rectangle.area())
 print(rectangle.perimeter())
+
+__name__()
