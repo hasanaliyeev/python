@@ -51,7 +51,7 @@ class MyGame:
     def __init__(self):
         self.game = Game()
 
-    def start(self, load_time=1):
+    def start(self, load_time=1.0):
         gamers_in = input('Gamers: ')
         gamer_list = gamers_in.split()
         for i in range(len(gamer_list)):
@@ -70,6 +70,7 @@ class MyGame:
 
 game = MyGame()
 if '__main__' == __name__:
-    game.start()
-else:
-    game = MyGame()
+    while True:
+        reply = float(input('Loading time: '))
+        game.start(reply)
+
