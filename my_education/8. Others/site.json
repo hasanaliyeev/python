@@ -1,0 +1,22 @@
+{
+  "Server": "nginx",
+  "Date": "Mon, 17 Oct 2022 18:08:06 GMT",
+  "Content-Type": "text/html; charset=utf-8",
+  "Transfer-Encoding": "chunked",
+  "Connection": "keep-alive",
+  "Keep-Alive": "timeout=50",
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-XSS-Protection": "1; mode=block",
+  "X-Content-Type-Options": "nosniff",
+  "X-Download-Options": "noopen",
+  "X-Permitted-Cross-Domain-Policies": "none",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+  "P3P": "CP=\"This Is Potato!\", CP=\"NON DSP NID ADMa DEVa TAIa PSAa PSDa OUR IND UNI COM NAV\"",
+  "ETag": "W/\"ee0160009ffeb8a98f8c7699f4cfeecc\"",
+  "Cache-Control": "max-age=0, private, must-revalidate",
+  "X-Request-Id": "de956ee1-c53b-4866-9164-05f341ab934f",
+  "X-Runtime": "0.974038",
+  "Set-Cookie": "is_mobile=0; path=/; domain=.lenta.ru, lids=48200F9A6681E45F;path=/;Max-Age=1800;domain=.lenta.ru, lid=vAsAAAaaTWOaD84AATiLPwB=; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.lenta.ru; path=/",
+  "Access-Control-Allow-Origin": "*",
+  "Content-Encoding": "gzip"
+}

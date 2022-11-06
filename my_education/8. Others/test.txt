@@ -1,0 +1,3 @@
+My name is G.A
+I live in B
+This is my first python code
